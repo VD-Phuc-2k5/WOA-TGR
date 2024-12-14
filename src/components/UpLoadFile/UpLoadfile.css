@@ -1,0 +1,28 @@
+#drop_zone {
+  height: 300px;
+  border: 2px dashed #077bff;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #077bff;
+}
+
+label {
+  cursor: pointer;
+  color: #007bff;
+}
+
+#fileInput {
+  display: none;
+}
+
+.file-content {
+  margin-top: 20px;
+}
+
+table {
+  width: 70vw;
+}
